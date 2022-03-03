@@ -49,12 +49,6 @@ conceptualContent:
 additionalContent:
   # Supports up to 3 sections
   sections: 
-    - title: Concepts and features # < 60 chars (optional)
-      items:
-      # Card
-      - title: API reference for ASP.NET Core
-        links:
-          - url: /dotnet/api/?view=aspnetcore-6.0
-            text: ".NET API browser"
+    - title: ""
   # footer (optional)
   footer: "Contribute to ASP.NET Core docs. Read our [contributor guide](https://github.com/dotnet/AspNetCore.Docs/blob/main/CONTRIBUTING.md)."
