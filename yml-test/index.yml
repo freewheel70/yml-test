@@ -1,0 +1,105 @@
+### YamlMime:Hub
+
+title: Testing documentation
+summary: Learn to test. 
+brand: test
+
+metadata:
+  title: Testing documentation
+  description: Learn to test.
+  ms.product: test
+  ms.topic: hub-test
+  author: zhihongli
+  ms.author: zhihongli
+  ms.date: 03/03/2022
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "Create an ASP.NET Core app on any platform in 5 minutes"
+      itemType: get-started
+      url: getting-started/index.md
+    
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: Develop ASP.NET Core apps # < 60 chars (optional)
+  summary: "Choose interactive web apps, web API, MVC-patterned apps, real-time apps, and more"
+  items:
+    # Card
+    - title: "Interactive client-side Blazor apps"
+      summary: Develop with reusable UI components that can take advantage of WebAssembly for near-native performance
+      links:
+        - url: blazor/index.md
+          itemType: overview
+          text: "Overview"
+        - url: https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro
+          itemType: get-started
+          text: "Build your first Blazor app"
+        - url: tutorials/build-a-blazor-app.md
+          itemType: get-started
+          text: "Build your first Blazor app with reusable components"
+        - url: blazor/hosting-models.md
+          itemType: concept
+          text: "Blazor hosting models"
+    # Card
+    - title: HTTP API apps
+      summary: Develop HTTP services with ASP.NET Core
+      links:
+        - url: tutorials/min-web-api.md
+          itemType: get-started
+          text: "Create a minimal web API with ASP.NET Core"
+        - url: /learn/modules/build-web-api-net-core/
+          itemType: learn
+          text: "Create a web API with ASP.NET Core Controllers"
+        - url: tutorials/web-api-help-pages-using-swagger.md
+          itemType: tutorial
+          text: "Generate web API help pages with Swagger / OpenAPI"
+        - url: web-api/action-return-types.md
+          itemType: concept
+          text: "Controller action return types"
+        - url: web-api/advanced/formatting.md
+          itemType: concept
+          text: "Format response data"
+        - url: web-api/handle-errors.md
+          itemType: concept
+          text: "Handle errors"
+        - url: tutorials/web-api-javascript.md
+          itemType: tutorial
+          text: "Call an ASP.NET Core web API with JavaScript"
+    # Card
+    - title: "Page-focused web UI with Razor Pages"
+      summary: "Develop page-focused web apps with a clean separation of concerns"
+      links:
+        - url: tutorials/razor-pages/razor-pages-start.md
+          itemType: get-started
+          text: "Create your first Razor Pages web app"
+        - url: /learn/modules/create-razor-pages-aspnet-core/
+          itemType: tutorial
+          text: "Create a page-focused web UI that consumes a web API"
+        - url: mvc/views/razor.md
+          itemType: concept
+          text: "Razor syntax"
+        - url: razor-pages/filter.md
+          itemType: concept
+          text: "Filters"
+        - url: razor-pages/razor-pages-conventions.md
+          itemType: concept
+          text: "Routing"
+    
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: Concepts and features # < 60 chars (optional)
+      items:
+      # Card
+      - title: API reference for ASP.NET Core
+        links:
+          - url: /dotnet/api/?view=aspnetcore-6.0
+            text: ".NET API browser"
+  # footer (optional)
+  footer: "Contribute to ASP.NET Core docs. Read our [contributor guide](https://github.com/dotnet/AspNetCore.Docs/blob/main/CONTRIBUTING.md)."

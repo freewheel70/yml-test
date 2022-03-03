@@ -6,7 +6,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
+        "src": ".",
         "dest": "api",
         "exclude": [
           "**/obj/**",
@@ -24,20 +24,6 @@
           "**/includes/**"
         ]
       },
-      {
-        "files": [
-          "**/*.md"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices",
-          "docs-ref-autogen"
-        ]
-      }
     ],
     "resource": [
       {
