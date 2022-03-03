@@ -45,51 +45,7 @@ conceptualContent:
         - url: blazor/hosting-models.md
           itemType: concept
           text: "Blazor hosting models"
-    # Card
-    - title: HTTP API apps
-      summary: Develop HTTP services with ASP.NET Core
-      links:
-        - url: tutorials/min-web-api.md
-          itemType: get-started
-          text: "Create a minimal web API with ASP.NET Core"
-        - url: /learn/modules/build-web-api-net-core/
-          itemType: learn
-          text: "Create a web API with ASP.NET Core Controllers"
-        - url: tutorials/web-api-help-pages-using-swagger.md
-          itemType: tutorial
-          text: "Generate web API help pages with Swagger / OpenAPI"
-        - url: web-api/action-return-types.md
-          itemType: concept
-          text: "Controller action return types"
-        - url: web-api/advanced/formatting.md
-          itemType: concept
-          text: "Format response data"
-        - url: web-api/handle-errors.md
-          itemType: concept
-          text: "Handle errors"
-        - url: tutorials/web-api-javascript.md
-          itemType: tutorial
-          text: "Call an ASP.NET Core web API with JavaScript"
-    # Card
-    - title: "Page-focused web UI with Razor Pages"
-      summary: "Develop page-focused web apps with a clean separation of concerns"
-      links:
-        - url: tutorials/razor-pages/razor-pages-start.md
-          itemType: get-started
-          text: "Create your first Razor Pages web app"
-        - url: /learn/modules/create-razor-pages-aspnet-core/
-          itemType: tutorial
-          text: "Create a page-focused web UI that consumes a web API"
-        - url: mvc/views/razor.md
-          itemType: concept
-          text: "Razor syntax"
-        - url: razor-pages/filter.md
-          itemType: concept
-          text: "Filters"
-        - url: razor-pages/razor-pages-conventions.md
-          itemType: concept
-          text: "Routing"
-    
+
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
